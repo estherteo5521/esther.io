@@ -17,32 +17,17 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
     text-align: center;
+    padding: 20px 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
-header nav ul {
-    list-style-type: none;
-    margin: 10px 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
+header p {
+    font-size: 1.2em;
 }
 
 /* Main content styling */
@@ -51,11 +36,27 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 section h2 {
     color: #333;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    color: #666;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 /* Footer styling */
